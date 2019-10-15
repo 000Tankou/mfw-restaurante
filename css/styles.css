@@ -10,6 +10,11 @@
 
 /* navbar */
 
+.nav li a:hover, .navbar-default{
+
+background-color: transparent;
+}
+
 nav.navbar{
     position: absolute;
     top: 100;
@@ -49,10 +54,37 @@ nav.navbar{
 }
 
 .btn-primary, 
-.btn-primary:hover{
+.btn-primary:hover,
+.navbar-default{
     background-color: transparent;
+}
+
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active> a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+    color: #fff;
+    background-color: rgba(17,17,17,.5);
+}
+
+.navbar-default .navbar-nav li a:hover,
+.navbar-default .navbar-nav li a:focus{
+    color: #f8512f;
+    background-color: rgba(17,17,17, .2);
 }
 
 .text_shadow{
     text-shadow: 1px 1px 5px #0a0a0a;
+}
+
+.main_logo{
+    max-height: 300px;
+}
+
+.carousel-caption p{
+    color: #f7f7f7
+
+}
+
+.navbar-brand>img{
+    margin-top: -7px;
 }
