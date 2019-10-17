@@ -126,7 +126,7 @@ nav.navbar{
     font-family: 'Playfair Display', sans-serif;
     font-size: 200px;
     z-index: -1;
-    position: absolutes;
+    position: absolute;
     color: rgba(149, 147, 147, 0.2);
 }
 
